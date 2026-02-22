@@ -140,7 +140,7 @@ msgstr "Informasi Tambahan"
 #. TRANSLATORS: Button Label
 #: src/main.rs:617 src/main.rs:1099 src/main.rs:1144 src/main.rs:1374 src/main.rs:1592
 msgid "Cancel"
-msgstr "Batalkan"
+msgstr "Batal"
 
 #. TRANSLATORS: Entry Label - Name input for new distrobox
 #: src/main.rs:651 src/main.rs:1182

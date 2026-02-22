@@ -387,9 +387,9 @@ msgstr "Terminal"
 #. TRANSLATORS: Success Message
 #: src/main.rs:1651
 msgid "Terminal Preference Saved!"
-msgstr "Preferensi Terminal Telah Disimpan!"
+msgstr "Pengaturan Terminal Telah Disimpan!"
 
 #. TRANSLATORS: Error Message
 #: src/main.rs:1662
 msgid "Sorry, Preference Could Not Be Saved"
-msgstr "Maaf, Preferensi Tidak Dapat Disimpan"
+msgstr "Maaf, Pengaturan Tidak Dapat Disimpan"

@@ -180,7 +180,7 @@ msgstr "Masukkan lokasi pemasangan folder ini didalam box baru anda"
 #. TRANSLATORS: Subheading
 #: src/main.rs:869
 msgid "Additional Volumes:"
-msgstr "Volume Lain"
+msgstr "Volume Lain:"
 
 #. TRANSLATORS: Context for the Additional Volumes subheading
 #: src/main.rs:872

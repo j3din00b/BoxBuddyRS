@@ -557,7 +557,7 @@ pub fn set_up_localisation() {
     let mut locale_directory = String::from("./po");
 
     // --TRANSLATORS: Comment out the next 8 lines to test your development locale
-    if is_flatpak() {
+    /*if is_flatpak() {
         locale_directory = String::from("/app/po");
     } else {
         let home_dir = env::var("HOME").unwrap_or_else(|_| ".".to_string());
@@ -565,7 +565,7 @@ pub fn set_up_localisation() {
             env::var("XDG_DATA_HOME").unwrap_or_else(|_| format!("{home_dir}/.local/share"));
 
         locale_directory = format!("{data_home}/locale");
-    }
+    }*/
 
     let locale_directory_path = std::path::PathBuf::from(&locale_directory);
     gettextrs::bindtextdomain("boxbuddyrs", locale_directory_path).expect("a");

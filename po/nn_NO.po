@@ -1,0 +1,416 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Bjørn Mørkedal <gnome@morkedal.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-15 16:47+0000\n"
+"PO-Revision-Date: 2026-04-03 12:58+0200\n"
+"Last-Translator: Bjørn Mørkedal <gnome@morkedal.com>\n"
+"Language-Team: Norwegian Nynorsk <nn@li.org>\n"
+"Language: nn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 50.0\n"
+
+#. TRANSLATORS: Button tooltip
+#: src/main.rs:154
+msgid "Create A Distrobox"
+msgstr "Lag ein Distrobox"
+
+#. TRANSLATORS: Button tooltip
+#: src/main.rs:173
+msgid "Assemble A Distrobox"
+msgstr "Set saman ein Distrobox"
+
+#. TRANSLATORS: File type
+#: src/main.rs:179
+msgid "INI-Files"
+msgstr "INI-filer"
+
+#. TRANSLATORS: Button tooltip
+#: src/main.rs:200
+msgid "Menu"
+msgstr "Meny"
+
+#. TRANSLATORS: Menu Item
+#: src/main.rs:253
+msgid "Refresh"
+msgstr "Oppdater"
+
+#. TRANSLATORS: Menu Item
+#: src/main.rs:259
+msgid "Set Preferred Terminal"
+msgstr "Vel føretrekt terminal"
+
+#. TRANSLATORS: Menu Item
+#: src/main.rs:266
+msgid "About BoxBuddy"
+msgstr "Om BoxBuddy"
+
+#. TRANSLATORS: Menu Item
+#: src/main.rs:271
+msgid "Quit"
+msgstr "Avslutt"
+
+#. TRANSLATORS: Error message
+#: src/main.rs:279
+msgid "Distrobox not found!"
+msgstr "Fann ikkje Distrobox!"
+
+#. TRANSLATORS: Error message
+#: src/main.rs:284
+msgid "Distrobox could not be found, please ensure it is installed!"
+msgstr "Fann ikkje Distrobox, sjå til at det er installert!"
+
+#. TRANSLATORS: Error message
+#: src/main.rs:294
+msgid "Podman / Docker not found!"
+msgstr "Fann ikkje Podman / Docker!"
+
+#. TRANSLATORS: Error message
+#: src/main.rs:299
+msgid "Could not find podman or docker, please install one of them!"
+msgstr "Fann verken Podman eller Docker, installer eitt av dei!"
+
+#. TRANSLATORS: Button tooltip
+#: src/main.rs:370
+msgid "Stop Box"
+msgstr "Stopp boks"
+
+#. TRANSLATORS: Row Label
+#: src/main.rs:399
+msgid "Open Terminal"
+msgstr "Opne terminal"
+
+#. TRANSLATORS: Row Label
+#: src/main.rs:412
+msgid "Upgrade Box"
+msgstr "Oppgrader boks"
+
+#. TRANSLATORS: Row Label
+#: src/main.rs:424
+msgid "View Applications"
+msgstr "Vis program"
+
+#. TRANSLATORS: Row Label
+#: src/main.rs:447
+msgid "Delete Box"
+msgstr "Slett boks"
+
+#. TRANSLATORS: Row Label
+#: src/main.rs:460
+msgid "Clone Box"
+msgstr "Klon boks"
+
+#. TRANSLATORS: Row Label
+#: src/main.rs:480
+msgid "Install .deb File"
+msgstr "Installer .deb‑fil"
+
+#. TRANSLATORS: Row Label
+#: src/main.rs:492
+msgid "Install .rpm File"
+msgstr "Installer .rpm‑fil"
+
+#. TRANSLATORS: Popup Window Title
+#: src/main.rs:541 src/main.rs:599
+msgid "Create New Distrobox"
+msgstr "Lag ny Distrobox"
+
+#. TRANSLATORS: Context label of the application doing something
+#: src/main.rs:553
+msgid "Assembling Distroboxes, please wait..."
+msgstr "Set saman Distroboxar, vent litt …"
+
+#. TRANSLATORS: Button Label
+#: src/main.rs:607
+msgid "Create"
+msgstr "Lag"
+
+#. TRANSLATORS: Button Label
+#: src/main.rs:612
+msgid "Additional Information"
+msgstr "Tilleggsinformasjon"
+
+#. TRANSLATORS: Button Label
+#: src/main.rs:617 src/main.rs:1099 src/main.rs:1144 src/main.rs:1374
+#: src/main.rs:1592
+msgid "Cancel"
+msgstr "Avbryt"
+
+#. TRANSLATORS: Entry Label - Name input for new distrobox
+#: src/main.rs:651 src/main.rs:1182
+msgid "Name"
+msgstr "Namn"
+
+#. TRANSLATORS: Entry Label - Select home directory for new distrobox
+#: src/main.rs:672
+msgid "Home Directory (Leave blank for default)"
+msgstr "Heimemappe (la stå tom for standard)"
+
+#. TRANSLATORS - Label for Dropdown where the user selects the container image to create
+#: src/main.rs:705
+msgid "Image"
+msgstr "Avtrykk"
+
+#. TRANSLATORS - Label for Toggle when creating box to add systemd support
+#: src/main.rs:712
+msgid "Use init system"
+msgstr "Bruk init‑system"
+
+#. TRANSLATORS: Button tooltip
+#: src/main.rs:819
+msgid "Add a volume"
+msgstr "Legg til volum"
+
+#. TRANSLATORS: Button tooltip
+#: src/main.rs:832
+msgid "Remove volume"
+msgstr "Fjern volum"
+
+#. TRANSLATORS: Help text for volume input
+#: src/main.rs:845
+msgid "Enter the location to mount this folder inside your new box"
+msgstr "Skriv inn kvar denne mappa skal monterast i den nye boksen"
+
+#. TRANSLATORS: Subheading
+#: src/main.rs:869
+msgid "Additional Volumes:"
+msgstr "Tilleggsvolum:"
+
+#. TRANSLATORS: Context for the Additional Volumes subheading
+#: src/main.rs:872
+msgid "Additional directories the new box should be able to access"
+msgstr "Tilleggsmapper den nye boksen skal ha tilgang til"
+
+#. TRANSLATORS: Description of the application
+#: src/main.rs:896
+msgid ""
+"A Graphical Manager for your Distroboxes.\n"
+"    \n"
+"BoxBuddy is not partnered with or endorsed by any linux distributions or "
+"companies.\n"
+"    \n"
+"Trademarks, service marks, and logos are the property of their respective "
+"owners."
+msgstr ""
+"Eit grafisk verktøy for å handtere Distrobox‑miljøa dine.\n"
+"\n"
+"BoxBuddy er ikkje tilknytt eller godkjend av nokon Linux‑distribusjonar eller selskap.\n"
+"\n"
+"Varemerke, tenestemerke og logoar tilhøyrer sine respektive eigarar."
+
+#. TRANSLATORS: Window Title - shows list of installed applications in distrobox
+#: src/main.rs:930
+msgid "Installed Applications"
+msgstr "Installerte program"
+
+#. TRANSLATORS: Loading Message
+#: src/main.rs:948
+msgid "Loading..."
+msgstr "Lastar …"
+
+#. TRANSLATORS: Error Message
+#: src/main.rs:991
+msgid "No Applications Installed"
+msgstr "Ingen program installert"
+
+#. TRANSLATORS: Window Title
+#: src/main.rs:996
+msgid "Available Applications"
+msgstr "Tilgjengelege program"
+
+#. TRANSLATORS: Button Label
+#: src/main.rs:1009
+msgid "Run"
+msgstr "Køyr"
+
+#. TRANSLATORS: Button Label
+#: src/main.rs:1025
+msgid "Remove From Menu"
+msgstr "Fjern frå meny"
+
+#. TRANSLATORS: Button Label
+#: src/main.rs:1042
+msgid "Add To Menu"
+msgstr "Legg til i meny"
+
+#. TRANSLATORS: Success Message
+#: src/main.rs:1073
+msgid "App Exported!"
+msgstr "Program eksportert!"
+
+#. TRANSLATORS: Success Message
+#: src/main.rs:1079
+msgid "App Removed!"
+msgstr "Program fjerna!"
+
+#. TRANSLATORS: Confirmation Dialogue
+#: src/main.rs:1090
+msgid "Really Delete?"
+msgstr "Vil du verkeleg slette?"
+
+#. TRANSLATORS: Button Label
+#: src/main.rs:1101
+msgid "Delete"
+msgstr "Slett"
+
+#. TRANSLATORS: Success Text
+#: src/main.rs:1114
+msgid "Box Deleted!"
+msgstr "Boks sletta!"
+
+#. TRANSLATORS: Button Label
+#: src/main.rs:1136 src/main.rs:1140
+msgid "Clone"
+msgstr "Klon"
+
+#. TRANSLATORS: Title / Instruction label
+#: src/main.rs:1166
+msgid "Enter the name of your new box"
+msgstr "Skriv inn namnet på den nye boksen"
+
+#: src/main.rs:1170
+msgid "Note: Cloning can take a long time, please be patient"
+msgstr "Merk: Kloning kan ta lang tid, ver tolmodig"
+
+#. TRANSLATORS: Error Message
+#: src/main.rs:1251
+msgid "Please install one of the supported terminals:"
+msgstr "Installer ein av dei støtta terminalane:"
+
+#. TRANSLATORS: Error Message
+#: src/main.rs:1256
+msgid "No supported terminal found"
+msgstr "Fann ingen støtta terminal"
+
+#. TRANSLATORS: Button Label
+#: src/main.rs:1261 src/main.rs:1299 src/main.rs:1317 src/main.rs:1353
+#: src/main.rs:1532 src/main.rs:1557
+msgid "Ok"
+msgstr "OK"
+
+#. TRANSLATORS: Error Message
+#: src/main.rs:1274
+msgid "No Boxes"
+msgstr "Ingen boksar"
+
+#. TRANSLATORS: Instructions
+#: src/main.rs:1277
+msgid "Click the + at the top-left to create your first box!"
+msgstr "Trykk på + oppe til venstre for å lage din første boks!"
+
+#. TRANSLATORS: Error / Info Message
+#: src/main.rs:1289
+msgid ""
+"You appear to be using a Flatpak of BoxBuddy without filesystem access. If "
+"you wish to set a Custom Home Directory you will need to grant filesystem "
+"access. Please see the <a href='https://dvlv.github.io/BoxBuddyRS/"
+"tips'>documentation for details.</a>"
+msgstr ""
+"Det ser ut som du brukar Flatpak‑versjonen av BoxBuddy utan filsystemtilgang. "
+"Viss du vil setje ei tilpassa heimemappe, må du gje tilgang til filsystemet. "
+"Sjå <a href='https://dvlv.github.io/BoxBuddyRS/tips'>dokumentasjonen</a> for meir informasjon."
+
+#. TRANSLATORS: Popup Heading
+#: src/main.rs:1293
+msgid "Sandboxed Flatpak Detected"
+msgstr "Flatpak i sandkasse oppdaga"
+
+#. TRANSLATORS: Error / Info Message
+#: src/main.rs:1308
+msgid ""
+"Distrobox can already access folders in your home directory - even if you "
+"have specified a custom home folder"
+msgstr ""
+"Distrobox har allereie tilgang til mapper i heimemappa di – sjølv om du har valt ei tilpassa heimemappe"
+
+#. TRANSLATORS: Popup Heading
+#: src/main.rs:1312
+msgid "Volume is already accessible"
+msgstr "Volumet er allereie tilgjengeleg"
+
+#. TRANSLATORS: Popup Heading
+#: src/main.rs:1348
+msgid "No Suitable Boxes Found"
+msgstr "Fann ingen eigna boksar"
+
+#. TRANSLATORS: Button Label
+#: src/main.rs:1370
+msgid "Install"
+msgstr "Installer"
+
+#: src/main.rs:1398
+msgid "Select a box to install this file into:"
+msgstr "Vel ein boks å installere fila i:"
+
+#. TRANSLATORS - Label for Dropdown of existing Boxes to install .deb or .rpm into
+#: src/main.rs:1416
+msgid "Box"
+msgstr "Boks"
+
+#. TRANSLATORS: File type
+#: src/main.rs:1454
+msgid "DEB Files"
+msgstr "DEB‑filer"
+
+#. TRANSLATORS: File type
+#: src/main.rs:1489
+msgid "RPM Files"
+msgstr "RPM‑filer"
+
+#. TRANSLATORS: Error / Info Message
+#: src/main.rs:1522
+msgid ""
+"This file is not accessible to Flatpak - please copy it to your Downloads "
+"folder, or allow filesystem access. Please see the <a href='https://"
+"dvlv.github.io/BoxBuddyRS/tips'>documentation for details.</a>"
+msgstr ""
+"Denne fila er ikkje tilgjengeleg for Flatpak – kopier ho til Nedlastingar, "
+"eller gje tilgang til filsystemet. Sjå <a href='https://dvlv.github.io/BoxBuddyRS/tips'>dokumentasjonen</a> for detaljar."
+
+#. TRANSLATORS: Popup Heading
+#: src/main.rs:1526
+msgid "File Not Accessible"
+msgstr "Fila er ikkje tilgjengeleg"
+
+#. TRANSLATORS: Popup Heading
+#: src/main.rs:1552
+msgid "Incorrect File Type"
+msgstr "Feil filtype"
+
+#. TRANSLATORS: Popup Window Title
+#: src/main.rs:1580
+msgid "Preferred Terminal"
+msgstr "Føretrekt terminal"
+
+#. TRANSLATORS: Button Label
+#: src/main.rs:1588
+msgid "Save"
+msgstr "Lagre"
+
+#. TRANSLATORS: Instructions label
+#: src/main.rs:1609
+msgid "Select your preferred terminal"
+msgstr "Vel den terminalen du føretrekkjer"
+
+#. TRANSLATORS: Label for Dropdown of terminals available
+#: src/main.rs:1629
+msgid "Terminal"
+msgstr "Terminal"
+
+#. TRANSLATORS: Success Message
+#: src/main.rs:1651
+msgid "Terminal Preference Saved!"
+msgstr "Terminalval lagra!"
+
+#. TRANSLATORS: Error Message
+#: src/main.rs:1662
+msgid "Sorry, Preference Could Not Be Saved"
+msgstr "Orsak, valet kunne ikkje lagrast"
